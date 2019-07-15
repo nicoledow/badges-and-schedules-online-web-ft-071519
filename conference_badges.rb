@@ -7,6 +7,9 @@ def batch_badge_creator(array_of_names)
   badge_array
 end
 
+
+
+
 def assign_rooms(speakers_list)
   room_assignments = []
   
@@ -16,3 +19,7 @@ def assign_rooms(speakers_list)
   
   room_assignments
 end
+
+
+
+def printer 
