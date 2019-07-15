@@ -30,4 +30,8 @@ def printer(attendees)
   batch_badge_creator(attendees).each_with_index do |attendee, i|
     puts batch_badge_creator(attendees)[i]
   end
+  
+  assign_rooms(attendees).each_with_index do |attendee, i|
+    puts assign_rooms(attendees)[i]
+  end
 end
